@@ -16,7 +16,10 @@
 
 buildscript {
   repositories {
-    mavenCentral()
+    maven {
+      url "http://192.168.131.143:9090/"
+      allowInsecureProtocol = true
+    }
   }
 }
 
