@@ -14,13 +14,7 @@
  * limitations under the License.
  */
 
-buildscript {
-  repositories {
-    maven {
-      url "http://192.168.131.143:9090/artifactory"
-    }
-  }
-}
+
 
 allprojects {
   apply plugin: 'java'
